@@ -3,7 +3,7 @@ PID control on Arduino with LabView to stabilize a ball on a beam.
 
 Introduction
 
-The BallandBeam project was developed at the National Institue of Applied Science and Technology (INSAT) on Spring 2019.
+The BallandBeam project was developed at the National Institue in Applied Science and Technology (INSAT) on Spring 2019.
 
 Visit my personal portfolio: https://karembenchikha.me 
 
