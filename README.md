@@ -5,7 +5,7 @@ Introduction
 
 The BallandBeam project was developed at the National Institue in Applied Science and Technology (INSAT) on Spring 2019.
 
-Visit my personal portfolio: https://karembenchikha.me 
+Visit my personal portfolio:
 
 Check the Project on Hackster: https://www.hackster.io/karem_benchikha/ball-and-beam-601d7a
 
@@ -34,7 +34,6 @@ Base support  (40 cm x 20 cm)
 Servo motor horn (5 cm)
 Lever horn (10 cm)
 Ping pong ball
-
 
 
 Electrical Part
