@@ -1,46 +1,36 @@
-# BallandBeam
+# Ball & Beam
+
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+![LabView](https://img.shields.io/badge/LabView-FFDB00?style=flat-square&logo=labview&logoColor=black)
+![PID](https://img.shields.io/badge/Control-PID-00599C?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 PID control on Arduino with LabView to stabilize a ball on a beam.
 
-Introduction
+[![Hackster](https://img.shields.io/badge/View_on-Hackster-2E9FE6)](https://www.hackster.io/karem_benchikha/ball-and-beam-601d7a)
 
-The BallandBeam project was developed at the National Institue in Applied Science and Technology (INSAT) on Spring 2019.
+## Overview
 
-Visit my personal portfolio:
+A ping pong ball rolls on a beam whose pitch is controlled by a servo connected to an Arduino. A distance sensor measures ball position, and a PID controller keeps it stable at the target position.
 
-Check the Project on Hackster: https://www.hackster.io/karem_benchikha/ball-and-beam-601d7a
+Developed at INSAT (Spring 2019).
 
+## How It Works
 
-This was a school project. The assignment was to construct a ball and beam control system.
+A lever arm connects the servo gear to the beam. As the servo rotates by angle `theta`, the beam angle `alpha` changes, causing gravity to roll the ball. The PID controller adjusts the servo to maintain the desired ball position.
 
+## Bill of Materials
 
-A ping pong ball sits on top of the beam rolling forward and backward according to the pitch of the beam. The pitch is controlled by a servo that is connected to an Arduino. The position of the ball is measured by a distance sensor mounted at the end of the beam.
+### Mechanical
+- Cardboard box (base: 40x20 cm)
+- 2x Support (20 cm)
+- 2x Beam (34 cm)
+- Servo motor horn (5 cm)
+- Lever horn (10 cm)
+- Ping pong ball
 
-
-A PID controller is used to control the position of the ball on the beam.
-
-
-Physical Setup
-
-A ball is placed on a beam, see figure below, where it is allowed to roll with 1 degree of freedom along the length of the beam. A lever arm is attached to the beam at one end and a servo gear at the other. As the servo gear turns by an angle theta, the lever changes the angle of the beam by alpha.
-
-When the angle is changed from the horizontal position, gravity causes the ball to roll along the beam. A controller will be designed for this system so that the ball's position can be manipulated.
-
-Mechanical Part
-
-A simple card box can do the job.
-Base support  (40 cm x 20 cm)
-2 x Support (20 cm)
-2 x Beam (34 cm)
-Servo motor horn (5 cm)
-Lever horn (10 cm)
-Ping pong ball
-
-
-Electrical Part
-
-You will need:
-Arduino (Nano)
-Servo motor
-Sharp sensor
-Cables and jumper
-Breadboard
+### Electrical
+- Arduino (Nano)
+- Servo motor
+- Sharp IR distance sensor
+- Breadboard & jumper cables
